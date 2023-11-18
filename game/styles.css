@@ -38,9 +38,18 @@ header .title{
     border-radius: 5px;
     cursor: pointer;
 }
+.buttons .slider{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 
+.slider p{
+    color: brown;
+    font-weight: bold;
+}
 button.start{
-    background-color: #000;
+    background-color: rgb(34, 34, 121);
     color: #fff;
 }
 
@@ -52,6 +61,21 @@ button.reset{
 button.stop{
     background-color: red;
     color: #fff;
+}
+
+.generation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border: solid 1px black;
+    border-radius: 4px;
+    background: black;
+    color: white;
+}
+.generation p{
+    margin: 0;
+    padding: 4px;
 }
 .game{
     margin-left: auto;

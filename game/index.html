@@ -18,6 +18,21 @@
         <button class="start" onclick="start()">Start</button>
         <button class="stop" onclick="stop()">Stop</button>
         <button class="reset" onclick="reset()">Reset</button>
+        <div class="slider">
+          <input
+            type="range"
+            id="speedSlider"
+            min="50"
+            max="1000"
+            step="50"
+            value="100"
+            oninput="adjustSpeed()"
+          />
+          <p>Speed : <span id="speedDisplay"> 0</span></p>
+        </div>
+        <div class="generation">
+          <p>Generation : <span id="genDisplay"> 0</span></p>
+        </div>
       </div>
     </div>
     <script src="game.js"></script>
