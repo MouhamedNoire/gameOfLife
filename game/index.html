@@ -10,7 +10,16 @@
     <header>
       <h1 class="title">Game of life</h1>
     </header>
-    <div class="table"></div>
+    <div class="container">
+      <div class="grid">
+        <table class="game"></table>
+      </div>
+      <div class="buttons">
+        <button class="start" onclick="start()">Start</button>
+        <button class="stop" onclick="stop()">Stop</button>
+        <button class="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
     <script src="game.js"></script>
   </body>
 </html>
