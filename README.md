@@ -19,4 +19,6 @@ mathematiques car dans l univers du jeu de conway la grille devrait etre sans fi
 
 Finalement nous fumes tres content du resultat qu'on a eu et esperons ameliorer le jeu au fil du temps.
 
+vous pouvez jouez a notre realisation ici : -> https://gameofbadman.netlify.app/
+
 ![Game of life - Google Chrome 18_11_2023 21_48_37](https://github.com/MouhamedNoire/gameOfLife/assets/96782429/e2a923d5-ae65-477e-b251-e0654a27f2fe)
