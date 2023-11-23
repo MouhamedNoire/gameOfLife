@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+header .title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.buttons{
+    display: grid;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons .slider{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider p{
+    color: brown;
+    font-weight: bold;
+}
+button.start{
+    background-color: rgb(34, 34, 121);
+    color: #fff;
+}
+
+button.reset{
+    background-color: green;
+    color: #fff;
+}
+
+button.stop{
+    background-color: red;
+    color: #fff;
+}
+
+.generation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border: solid 1px black;
+    border-radius: 4px;
+    background: black;
+    color: white;
+}
+.generation p{
+    margin: 0;
+    padding: 4px;
+}
+.game{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 400px;
+}
+
+.game td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+@media screen and (max-width: 654px){
+    .game{
+        width: 100%;
+    }
+    .grid{
+        width: 100%;
+    }
+
+    header .title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 50px; 
+    width: 100%;
+}
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+}
+

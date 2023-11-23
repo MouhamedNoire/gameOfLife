@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Game of life</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Game of life</h1>
+    </header>
+    <div class="container">
+      <div class="grid">
+        <table class="game"></table>
+      </div>
+      <div class="buttons">
+        <button class="start" onclick="start()">Start</button>
+        <button class="stop" onclick="stop()">Stop</button>
+        <button class="reset" onclick="reset()">Reset</button>
+        <div class="slider">
+          <input
+            type="range"
+            id="speedSlider"
+            min="50"
+            max="1000"
+            step="50"
+            value="100"
+            oninput="adjustSpeed()"
+          />
+          <p>Speed : <span id="speedDisplay"> 0</span></p>
+        </div>
+        <div class="generation">
+          <p>Generation : <span id="genDisplay"> 0</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
