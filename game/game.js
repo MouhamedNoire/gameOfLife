@@ -123,7 +123,7 @@ function reset() {
   colorGrid();
 }
 
-// Fonction pour ajuster la vitesse du jeu en fonction de la valeur du slider
+// Fonction pour ajuster la vitesse du jeu en fonction de la valeur du slider modifie
 function adjustSpeed() {
   console.log("adjusting speed");
   speedDis = Math.floor(document.getElementById("speedSlider").value / 100);
