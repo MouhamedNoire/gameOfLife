@@ -63,11 +63,12 @@ function updateGrid() {
       }
     }
   }
-  countGeneration();
   grid = next;
   colorGrid();
   if (stable) {
     stop();
+  } else {
+    countGeneration();
   }
 }
 
@@ -116,6 +117,8 @@ function stop() {
 // Fonction pour réinitialiser le jeu
 function reset() {
   stop();
+  sumGeneration = -1;
+  countGeneration();
   grid = createGrid();
   colorGrid();
 }
